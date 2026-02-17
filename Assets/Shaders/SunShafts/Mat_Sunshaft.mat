@@ -61,7 +61,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _CircleRadius: 15.11
-    - _CullDistance: 5.6
+    - _CullDistance: 0
     - _Intensity: 1.39
     - _MaskRadius: 4
     - _MaskSpeed: -0.1
