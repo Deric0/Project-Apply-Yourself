@@ -32,8 +32,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1891526837e61d34ea717fbb21288d0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NoiseTex2:
+        m_Texture: {fileID: 2800000, guid: bd663114da09e3e4bb2ea162f3c6fd0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _PaintedTex:
-        m_Texture: {fileID: 2800000, guid: 6b006f1833eae45498145b72882a7469, type: 3}
+        m_Texture: {fileID: 2800000, guid: b12ddfaafa116d44fb9bdd4d1175d782, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -50,15 +54,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlendSoftness: 0.01
+    - _BlendSoftness: 0.1
+    - _NoiseSpread: 4.11
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _BaseColor: {r: 0.9339623, g: 0.91472775, b: 0.7004717, a: 0}
-    - _BaseTiling: {r: 10, g: 10, b: 0, a: 0}
-    - _NoiseTiling: {r: 20, g: 20, b: 0, a: 0}
+    - _BaseColor: {r: 0.8301887, g: 0.81560504, b: 0.7244571, a: 0}
+    - _BaseTiling: {r: 7, g: 7, b: 0, a: 0}
+    - _NoiseTiling: {r: 7, g: 7, b: 0, a: 0}
+    - _NoiseTiling2: {r: 1, g: 1, b: 0, a: 0}
     - _PaintedColor: {r: 1, g: 1, b: 1, a: 0}
-    - _PaintedTiling: {r: 5, g: 5, b: 0, a: 0}
+    - _PaintedTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1523887691925636452
