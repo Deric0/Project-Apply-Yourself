@@ -72,8 +72,8 @@ Material:
     - _CircleSpeed2: 0.001
     - _CircleSpeed2_1: 0.01
     - _Cutoff: 0.68037194
-    - _DodgeBrightness: 2.75
-    - _DodgeBrightness_1: 1.73
+    - _DodgeBrightness: 5
+    - _DodgeBrightness_1: 2.62
     - _NoiseScale: 10
     - _NoiseSpeed: 0.02
     - _NoiseStrength: 0.027
